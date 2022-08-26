@@ -13,3 +13,9 @@ XXX\Scripts\activate.bat
 
 下载文件内所有包：
 pip install -r requirement.txt
+
+生成依赖包列表
+pip freeze > requirements.txt
+
+根据requirements.txt安装依赖
+pip install -r requirements.txt
