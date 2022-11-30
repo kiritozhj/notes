@@ -18,7 +18,7 @@ systemctl stop mysql
 systemctl start mysql  
 ```
 
-# 重启mysql服务  
+## 重启mysql服务  
 ``` sh
 systemctl restart mysql
 ```
