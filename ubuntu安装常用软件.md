@@ -35,5 +35,6 @@ echo '123' | sudo -S brightnessctl --device='platform::kbd_backlight' set 10-
 .../brightUp.sh
 
 ## idea和pycharm
-export IDEA_VM_OPTIONS="/usr/local/idea/jetbra/vmoptions/idea.vmoptions"
-export PYCHARM_VM_OPTIONS="/usr/local/pycharm/jetbra/vmoptions/pycharm.vmoptions"
+export IDEA_VM_OPTIONS="/usr/local/idea/jetbra/vmoptions/idea.vmoptions"  
+export PYCHARM_VM_OPTIONS="/usr/local/pycharm/jetbra/vmoptions/pycharm.vmoptions"  
+chrome中修改要去.config/idea里修改idea64.vmoptions
