@@ -22,3 +22,14 @@ systemctl start mysql
 ``` sh
 systemctl restart mysql
 ```
+
+## dell 5400设置亮度
+```sh
+sudo apt install gnome-terminal
+```
+创建brightUp.sh  
+echo '123' | sudo -S brightnessctl --device='platform::kbd_backlight' set 10+  
+创建brightDown.sh  
+echo '123' | sudo -S brightnessctl --device='platform::kbd_backlight' set 10-  
+设置快捷键  
+.../brightUp.sh
