@@ -28,9 +28,9 @@ systemctl restart mysql
 sudo apt install gnome-terminal
 ```
 创建brightUp.sh  
-echo '123' | sudo -S brightnessctl --device='platform::kbd_backlight' set 10+  
+echo '123'|sudo -S brightnessctl --device='platform::kbd_backlight' set 10+  
 创建brightDown.sh  
-echo '123' | sudo -S brightnessctl --device='platform::kbd_backlight' set 10-  
+echo '123'|sudo -S brightnessctl --device='platform::kbd_backlight' set 10-  
 设置快捷键  
 .../brightUp.sh
 
