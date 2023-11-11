@@ -32,7 +32,7 @@ echo '123'|sudo -S brightnessctl --device='platform::kbd_backlight' set 10+
 创建brightDown.sh  
 echo '123'|sudo -S brightnessctl --device='platform::kbd_backlight' set 10-  
 设置快捷键  
-.../brightUp.sh
+bash brightUp.sh
 
 ## idea和pycharm
 export IDEA_VM_OPTIONS="/usr/local/idea/jetbra/vmoptions/idea.vmoptions"  
