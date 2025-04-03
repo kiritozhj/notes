@@ -23,17 +23,6 @@ systemctl start mysql
 systemctl restart mysql
 ```
 
-## dell 5400设置亮度
-```sh
-sudo apt install gnome-terminal
-```
-创建brightUp.sh  
-echo '123'|sudo -S brightnessctl --device='platform::kbd_backlight' set 10+  
-创建brightDown.sh  
-echo '123'|sudo -S brightnessctl --device='platform::kbd_backlight' set 10-  
-设置快捷键  
-bash brightUp.sh
-
 ## idea和pycharm
 export IDEA_VM_OPTIONS="/usr/local/idea/jetbra/vmoptions/idea.vmoptions"  
 export PYCHARM_VM_OPTIONS="/usr/local/pycharm/jetbra/vmoptions/pycharm.vmoptions"  
